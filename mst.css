@@ -1,42 +1,72 @@
-/* styles pour les appareils de taille moyenne et plus grands */
-header {
+body {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 20px;
-  }
-  
-  nav ul {
-    display: flex;
-    list-style: none;
-  }
-  
-  nav li {
-    margin-right: 20px;
-  }
-  
-  nav a {
-    color: #333;
-    text-decoration: none;
-  }
-  
-  nav a:hover {
-    text-decoration: underline;
-  }
-  
-  /* styles pour les appareils plus petits */
-  @media (max-width: 768px) {
-    header {
-      flex-direction: column;
-    }
-    
-    nav ul {
-      flex-direction: column;
-    }
-    
-    nav li {
-      margin-right: 0;
-      margin-bottom: 10px;
-    }
-  }
-  
+    height: 100vh;
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+.form {
+    width: 50%;
+    background-color: aqua;
+    padding: 40px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.date{
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #584f4f;
+}
+.hD{
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #584f4f;
+}
+.hA{
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #584f4f;
+}
+.km{
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #584f4f;
+}
+.meteo{
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #584f4f;
+}
+
+button{
+    background-color: cadetblue;
+    color: white;
+    padding: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.boutton:hover{
+    color: beige;
+    transform: scale(0.9);
+}
+
+.varVm {
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #584f4f;
+}
+
+.idVar {
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #584f4f;
+}
+
+.incident {
+
+    padding: 5px;
+
+}
